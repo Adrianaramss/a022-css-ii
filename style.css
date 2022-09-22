@@ -1,14 +1,21 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
     width: 800px;
+    height: 600px;
+    margin:relative;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position:fixed ;
+    right: 10vh;
+    bottom:5vh;
+    text-align: center;
   }
   
   footer{
@@ -22,3 +29,21 @@ header{
     color: white;
     font-family: serif;
   }
+
+  button:active {
+    background-color: white;
+    color: black;
+  }
+  
+  aside:has(button:active) {
+    background-color: black;
+    color: white;
+  }
+
+
+  /* body {
+    background-image: url('https://i.pinimg.com/236x/1a/0c/30/1a0c30139e2629666868f6333f206761.jpg')
+  } */
+
+
+  
